@@ -1,0 +1,1 @@
+Het is ook mogelijk om VNets zonder een gateway VPN-verbinding te. Als uw VNets in dezelfde regio, is het raadzaam deze verbinding te maken met behulp van VNet peering overwegingen. Zie het artikel [VNet peering](../articles/virtual-network/virtual-network-peering-overview.md) voor meer informatie.

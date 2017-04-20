@@ -1,0 +1,1 @@
+> [AZURE.NOTE] Azure heeft twee verschillende implementatiemodellen voor het maken en werken met resources: [resourcemanager en classic](../articles/resource-manager-deployment-model.md).  In dit artikel beschreven hoe u met het implementatiemodel resourcemanager, die wordt aangeraden voor de meeste nieuwe implementaties in plaats van de

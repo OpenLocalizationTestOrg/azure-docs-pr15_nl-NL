@@ -1,0 +1,1 @@
+> [AZURE.IMPORTANT] Deze functie is beschikbaar met **Azure CDN uit Verizon** producten (standaard en Premium). Deze wordt niet ondersteund op **Azure CDN van Akamai**.  Zie voor een vergelijking van functies voor CDN, [Azure CDN overzicht](cdn-overview.md#azure-cdn-features). 

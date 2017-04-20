@@ -1,0 +1,3 @@
+Een aangepaste domeinnaam instellen op een WebApp in Azure App-Service die is door verkeer Manager van taakverdeling is alleen beschikbaar voor de **standaard** -modus websites. Voordat u overschakelt naar de modus gedeeld, Basic of standaard een web-app van de gratis App abonnement modus, moet u eerst uitgaven caps op hun plaats staan voor uw abonnement App Service verwijderen. 
+
+Voor meer informatie over de opties voor de App Service-abonnement, waaronder over het wijzigen van de modus van uw site, Zie [hoe u de schaal van websites](../articles/app-service-web/web-sites-scale.md).

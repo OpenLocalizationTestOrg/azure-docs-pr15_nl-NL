@@ -1,0 +1,1 @@
+Zie voor informatie over andere bindingen en triggers voor functies van Azure [Azure functies triggers en naslaginformatie voor ontwikkelaars van bindingen](../articles/azure-functions/functions-triggers-bindings.md)

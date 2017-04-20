@@ -1,0 +1,5 @@
+Het is belangrijk om te begrijpen dat Azure momenteel met twee implementatiemodellen werkt: resourcemanager en klassiek. Voordat u uw configuratie, Ga na of u de instructies voor de implementatiemodel dat u werken wilt. De twee modellen niet volledig compatibel zijn met elkaar.
+
+Als u met een virtueel netwerk die is gemaakt met het implementatiemodel klassieke en wilt een verbinding toevoegen aan de VNet werkt, gebruikt u bijvoorbeeld de implementatiemethoden die met het implementatiemodel klassieke, niet resourcemanager overeenkomen. Als u met een virtueel netwerk die is gemaakt met het implementatiemodel resourcemanager werkt, gebruikt u de implementatiemethoden die overeenkomen met resourcemanager, niet klassieke.
+
+Zie [lidmaatschap resourcemanager implementatie en klassieke implementatie](../articles/resource-manager-deployment-model.md)voor informatie over de implementatiemodellen.

@@ -1,122 +1,121 @@
-# Azure Technical Documentation Contributor Guide
+# <a name="azure-technical-documentation-contributor-guide"></a>Azure technische documentatie Inzender handleiding
 
-You've found the GitHub repository that houses the source for the technical documentation that is published to the Azure Documentation Center at [http://azure.microsoft.com/documentation](http://azure.microsoft.com/documentation).
+U kunt de GitHub opslagplaats waarin bevinden zich de bron voor de technische documentatie die wordt gepubliceerd naar het beheercentrum Azure documentatie bij [http://azure.microsoft.com/documentation](http://azure.microsoft.com/documentation)hebt gevonden.
 
-This repository also contains guidance to help you contribute to our technical documentation.  For a list of the articles in the contributors' guide, see [the index](https://github.com/Azure/azure-content/blob/master/contributor-guide/contributor-guide-index.md).
+Deze bibliotheek bevat ook richtlijnen u bijdragen aan onze technische documentatie.  Zie voor een lijst met de artikelen in de inzenders handleiding, [de index](https://github.com/Azure/azure-content/blob/master/contributor-guide/contributor-guide-index.md).
 
-## Contribute to Azure documentation
+## <a name="contribute-to-azure-documentation"></a>Bijdragen aan Azure documentatie
 
-Thank you for your interest in Azure documentation!
+Bedankt voor uw belangstelling Azure documentatie.
 
-* [Ways to contribute](#ways-to-contribute)
-* [Code of conduct](#code-of-conduct)
-* [About your contributions to Azure content](#about-your-contributions-to-azure-content)
-* [Repository organization](#repository-organization)
-* [Use GitHub, Git, and this repository](#use-github-git-and-this-repository)
-* [How to use markdown to format your topic](#how-to-use-markdown-to-format-your-topic)
-* [Feedback, comments, and support](./contributor-guide/feedback-and-comments.md)
-* [More resources](#more-resources)
-* [Index of all contributors' guide articles](./contributor-guide/contributor-guide-index.md) (opens new page)
+* [Manieren om mee te](#ways-to-contribute)
+* [Code van leiden](#code-of-conduct)
+* [Informatie over uw bijdragen aan goede doelen tot Azure inhoud](#about-your-contributions-to-azure-content)
+* [Opslagplaats organisatie](#repository-organization)
+* [GitHub, cijfer en deze opslagplaats gebruiken](#use-github-git-and-this-repository)
+* [Hoe u uw onderwerp opmaken met korting](#how-to-use-markdown-to-format-your-topic)
+* [Feedback, opmerkingen en ondersteuning](./contributor-guide/feedback-and-comments.md)
+* [Meer informatiebronnen](#more-resources)
+* [Index van alle inzenders handleiding artikelen](./contributor-guide/contributor-guide-index.md) (nieuwe pagina wordt geopend)
 
-## Ways to contribute 
+## <a name="ways-to-contribute"></a>Manieren om mee te 
 
-You can contribute to [Azure documentation](http://azure.microsoft.com/documentation/) in a few different ways:
+U kunt [Azure](http://azure.microsoft.com/documentation/) documentatie bijdragen in op verschillende manieren:
 
-* Contribute to a [forum discussion](http://social.msdn.microsoft.com/Forums/windowsazure/home).
-* Submit Disqus comments at the bottom of articles.
-* You can easily contribute to technical articles in the GitHub user interface. Either find the article in this repository, or visit the article on [http://azure.microsoft.com/documentation](http://azure.microsoft.com/documentation) and click the link in the article that goes to the GitHub source for the article.
-* If you are making substantial changes to an existing article, adding or changing images, or contributing a new article, you need to fork this repository, install Git Bash, Markdown Pad, and learn some git commands.
+* Bijdragen aan een [discussie forum](http://social.msdn.microsoft.com/Forums/windowsazure/home).
+* Disqus opmerkingen onderaan artikelen op verzenden.
+* U kunt eenvoudig bijdragen aan technische artikelen in de gebruikersinterface GitHub. Het artikel in deze opslagplaats, zoeken of Ga naar het artikel over [http://azure.microsoft.com/documentation](http://azure.microsoft.com/documentation) en klik op de koppeling in het artikel naar de bron GitHub voor het artikel.
+* Als u belangrijke wijzigingen in een bestaand artikel aanbrengt, moet toevoegen of wijzigen van afbeeldingen of die bijdragen een nieuw artikel, u zich splitsen deze opslagplaats, cijfer we vaker doen, korting toetsenblok, installeren en informatie over sommige opdrachten cijfer.
 
-##Code of conduct
+##<a name="code-of-conduct"></a>Code van leiden
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+Dit project heeft aangenomen dat de [Microsoft Open bron Code van leiden](https://opensource.microsoft.com/codeofconduct/). Zie voor meer informatie de [Code van leiden Veelgestelde vragen](https://opensource.microsoft.com/codeofconduct/faq/) of contactpersoon [opencode@microsoft.com](mailto:opencode@microsoft.com) met extra vragen of opmerkingen.
 
-##About your contributions to Azure content
+##<a name="about-your-contributions-to-azure-content"></a>Informatie over uw bijdragen aan goede doelen tot Azure inhoud
 
-###Minor corrections
+###<a name="minor-corrections"></a>Secundaire correcties
 
-Minor corrections or clarifications you submit for documentation and code examples in this repo are covered by the [Azure Website Terms of Use (ToU)](http://azure.microsoft.com/support/legal/website-terms-of-use/).
+Secundaire correcties of toelichtingen voor documentatie en code voorbeelden in deze cessies‑retrocessies foutenrapporten worden bedekt door het [Azure Website gebruiksvoorwaarden (gebruiksvoorwaarden)](http://azure.microsoft.com/support/legal/website-terms-of-use/).
 
 
-###Larger submissions
+###<a name="larger-submissions"></a>Grotere ingediende items
 
-If you submit a pull request with new or significant changes to documentation and code examples, we'll send a comment in GitHub asking you to submit an online Contribution License Agreement (CLA) if you are in one of these groups:
+Als u een verzoek om te halen met nieuwe of belangrijke wijzigingen in de documentatie en codevoorbeelden indient, sturen we een opmerking in GitHub vraagt u om in te dienen een online bijdrage licentie overeenkomst (CLA) als u zich in een van deze groepen:
 
-* Members of the Microsoft Open Technologies group.
-* Contributors who don't work for Microsoft.
+* Leden van de groep Microsoft Open-technologieën.
+* Inzenders die niet voor Microsoft werken.
 
-We need you to complete the online form before we can accept your pull request.
+We nodig u om het online formulier voordat we uw aanvraag halen kunt accepteren.
 
-Full details are available at [http://azure.github.io/guidelines/#cla](http://azure.github.io/guidelines/#cla).
+Volledige gegevens zijn beschikbaar op [http://azure.github.io/guidelines/#cla](http://azure.github.io/guidelines/#cla).
 
-## Repository organization
+## <a name="repository-organization"></a>Opslagplaats organisatie
 
-The content in the azure-content repository follows the organization of documentation on [Azure.Microsoft.com](http://azure.microsoft.com). This repository contains two root folders:
+De inhoud in de bibliotheek azure-inhoud volgt de organisatie van documentatie op [Azure.Microsoft.com](http://azure.microsoft.com). Deze bibliotheek bevat twee hoofdsite mappen:
 
-### \articles
+### <a name="articles"></a>\articles
 
-The *\articles* folder contains the documentation articles formatted as markdown files with an *.md* extension.
+De map *\articles* bevat de documentatie-artikelen die zijn opgemaakt als korting bestanden met de extensie *.md* .
 
-Articles in the root directory are published to Azure.Microsoft.com in the path *http://azure.microsoft.com/documentation/articles/{article-name-without-md}/*.
+Artikelen in de hoofdmap zijn gepubliceerd naar Azure.Microsoft.com in het pad *http://azure.microsoft.com/documentation/articles/ {artikel-naam-zonder-md} /*.
 
-* **Article filenames:** See [our file naming guidance](./contributor-guide/file-names-and-locations.md).
+* **Bestandsnamen-artikel:** Zie [de richtlijnen naamgeving van onze bestanden](./contributor-guide/file-names-and-locations.md).
 
-Articles within their own service folder are published to Azure.Microsoft.com in the path
-*http://azure.microsoft.com/documentation/articles/service-folder/{article-name-without-md}/*
+Artikelen binnen hun eigen servicemap zijn gepubliceerd naar Azure.Microsoft.com in het pad *http://azure.microsoft.com/documentation/articles/service-folder/ {artikel-naam-zonder-md} /*
 
-* **Media subfolders:** The *\articles* folder contains the *\media* folder for root directory article media files, inside which are subfolders with the images for each article.  The service folders contain a separate media folder for the articles within each service folder. The article image folders are named identically to the article file, minus the *.md* file extension.
+* **Media submappen:** De map *\articles* bevat de map *\media* voor hoofdmap directory artikel media-bestanden, in welke submappen met de afbeeldingen voor elk artikel.  De service-mappen bevatten een afzonderlijke media-map voor de artikelen in elke servicemap. De mappen van de afbeelding artikel dezelfde naam hebben als het bestand artikel, min de bestandsextensie *.md* .
 
-### \includes
+### <a name="includes"></a>\Includes
 
-You can create reusable content sections to be included in one or more articles. See [Custom extensions used in our technical content](./contributor-guide/custom-markdown-extensions.md).
+U kunt herbruikbare inhoud secties wilt opnemen in een of meer artikelen maken. Zie [aangepaste uitbreidingen gebruikt in onze technische inhoud](./contributor-guide/custom-markdown-extensions.md).
 
-### \markdown templates
+### <a name="markdown-templates"></a>\markdown-sjablonen
 
-This folder contains our standard markdown template with the basic markdown formatting you need for an article.
+Deze map bevat onze standaard korting-sjabloon met de eenvoudige korting opmaak die u nodig voor een artikel hebt.
 
-### \contributor-guide
+### <a name="contributor-guide"></a>\contributor-Guide
 
-This folder contains articles that are part of our contributors' guide.  
+Deze map bevat artikelen die deel van de onze medewerkers handleiding uitmaken.  
 
-## Use GitHub, Git, and this repository
+## <a name="use-github-git-and-this-repository"></a>GitHub, cijfer en deze opslagplaats gebruiken
 
-For information about how to contribute, how to use the GitHub UI to contribute small changes, and how to fork and clone the repository for more significant contributions, see [Install and set up tools for authoring in GitHub](./contributor-guide/tools-and-setup.md).
+Zie voor informatie over hoe u bijdragen, hoe u met de UI GitHub bijdragen kleine wijzigingen en hoe u zich splitsen en de opslagplaats voor meer aanzienlijk bijdragen aan goede doelen klonen [installeren en instellen van hulpmiddelen voor het beschikbaar is in GitHub](./contributor-guide/tools-and-setup.md).
 
-If you install GitBash and choose to work locally, the steps for creating a new local working branch, making changes, and submitting the changes back to the main branch are listed in [Git commands for creating a new article or updating an existing article](./contributor-guide/git-commands-for-master.md)
+Als u GitBash installeren en kies lokaal werken, wordt de stappen voor het maken van een nieuwe lokale werken tak, het aanbrengen van wijzigingen, en het versturen van dat de wijzigingen weer met de belangrijkste tak staan in [cijfer opdrachten voor het maken van een nieuw artikel of een bestaand artikel bijwerken](./contributor-guide/git-commands-for-master.md)
 
-### Branches
+### <a name="branches"></a>Vertakkingen
 
-We recommend that you create local working branches that target a specific scope of change. Each branch should be limited to a single concept/article both to streamline work flow and reduce the possibility of merge conflicts.  The following efforts are of the appropriate scope for a new branch:
+Het is raadzaam dat u maakt lokale werken vertakkingen die zijn gericht op een bepaald bereik van wijzigen. Elke tak moet worden beperkt tot één concept/artikel zowel naar stroomlijnen werkstroom en de mogelijkheid van conflicten bij het samenvoegen te verkleinen.  De volgende inspanningen zijn van het gewenste bereik voor een nieuwe tak:
 
-* A new article (and associated images)
-* Spelling and grammar edits on an article.
-* Applying a single formatting change across a large set of articles (e.g. new copyright footer).
+* Een nieuw artikel (en gekoppelde afbeeldingen)
+* Spelling en grammatica bewerkingen van een artikel.
+* Een enkel opmaakwijzigen toepassen via een groot aantal artikelen (bijvoorbeeld nieuwe copyright voettekst).
 
-## How to use markdown to format your topic
+## <a name="how-to-use-markdown-to-format-your-topic"></a>Hoe u uw onderwerp opmaken met korting
 
-All the articles in this repository use GitHub flavored markdown.  Here's a list of resources.
+De artikelen in deze bibliotheek gebruik GitHub flavored korting.  Hier volgt een lijst met bronnen.
 
-- [Markdown basics](https://help.github.com/articles/markdown-basics/)
+- [Basisbeginselen van korting](https://help.github.com/articles/markdown-basics/)
 
-- [Printable markdown cheatsheet](./contributor-guide/media/documents/markdown-cheatsheet.pdf?raw=true)
+- [Afdrukbare korting Cheatsheet voor](./contributor-guide/media/documents/markdown-cheatsheet.pdf?raw=true)
 
-- For our list of markdown editors, see the [tools and setup topic](./contributor-guide/tools-and-setup.md#install-a-markdown-editor).
+- Zie de [hulpprogramma's en het onderwerp van de instelling](./contributor-guide/tools-and-setup.md#install-a-markdown-editor)voor onze lijst met korting editors.
 
-## Article metadata
+## <a name="article-metadata"></a>Metagegevens van artikel
 
-Article metadata enables certain functionalities on the azure.microsoft.com web site, such as author attribution, contributor attribution, breadcrumbs, article descriptions, and SEO optimizations as well as reporting Microsoft uses to evaluate the performance of the content. So, the metadata is important! [Here's the guidance for making sure your metadata is done right](./contributor-guide/article-metadata.md).
+Artikel metagegevens kan bepaalde functies op de website azure.microsoft.com, zoals auteur afschrijving, Inzender afschrijving breadcrumbs, artikel beschrijvingen en SEO optimalisaties toe, evenals rapportage Microsoft gebruikt de prestaties van de inhoud wordt berekend. Zo is, is de metagegevens belangrijke! [Hier volgt de richtlijnen ervoor te zorgen dat de metagegevens van uw rechts klaar is](./contributor-guide/article-metadata.md).
 
-### Labels
+### <a name="labels"></a>Labels
 
-Automated labels are assigned to pull requests to help us manage the pull request workflow and to help let you know what's going on with your pull request:
+Geautomatiseerde etiketten zijn toegewezen om op te halen verzoeken om help ons te beheren van de werkstroom van de aanvraag halen en om te laten weten wat er gebeurt met uw aanvraag halen:
 
-* Contribution License Agreement related
-    * cla-not-required: The change is relatively minor and does not require that you sign a CLA.
-    * cla-required: The scope of the change is relatively large and requires that you sign a CLA.
-    * cla-signed: The contributor signed the CLA, so the pull request can now move forward for review.
-* Pillar labels: Labels such as PnP, Modern Apps, and TDC help categorize the pull requests by the internal organization that needs to review the pull request.
-* Change sent to author: The author has been notified of the pending pull request.
+* Licentieovereenkomst voor bijdrage gerelateerd
+    * CLA niet vereist: de wijziging is relatief klein en hoeft u niet dat u zich een CLA aanmeldt.
+    * CLA vereist: het bereik van de wijziging is relatief groot en is vereist dat u zich een CLA aanmeldt.
+    * CLA ondertekend: de inzender ondertekend de CLA, zodat het verzoek halen nu naar voren voor revisie verplaatsen kunt.
+* Labels voor pijler: etiketten, zoals PnP, moderne Apps en TDC te categoriseren met de aanvragen halen door de interne organisatie die vereist zijn voor het controleren van de aanvraag halen.
+* Wijzigen die zijn verzonden naar de auteur: de auteur is gesteld van de aanvraag in behandeling halen.
 
-## More resources
+## <a name="more-resources"></a>Meer informatiebronnen
 
-See the [index of our contributor's guide](./contributor-guide/contributor-guide-index.md) for all our guidance topics.
+Zie de [index van onze medewerker handleiding](./contributor-guide/contributor-guide-index.md) voor alle onderwerpen in onze richtlijnen.

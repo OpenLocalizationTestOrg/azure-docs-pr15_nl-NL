@@ -1,0 +1,1 @@
+> [AZURE.IMPORTANT] Voordat u met Azure resources werkt, vertrouwd raken met de implementatiemodellen: [resourcemanager, en klassiek](../articles/resource-manager-deployment-model.md).

@@ -1,0 +1,7 @@
+Een Azure virtuele machines ondersteunt het toevoegen van een aantal gegevensschijven. U wilt Beperk het aantal ten zeerste gebruikte schijven die zijn bijgevoegd bij de virtuele machine om te voorkomen dat mogelijk beperken voor optimale prestaties. Als alle schijven wordt ten zeerste op hetzelfde moment gebruikt worden, kan een grotere getal schijven ondersteuning voor de opslag-account.
+
+- **Voor standaard opslag-accounts:** Een standaard-opslag-account heeft een maximum totale verzoek tarief van 20.000 IO's / s. De totale IO's / s over alle VM schijven in een standaard-opslag-account mag niet meer dan deze limiet.
+
+    U kunt het aantal ten zeerste gebruikte schijven worden ondersteund door een enkel standaard opslag-account op basis van de limiet van de aanvraag ongeveer berekenen. Bijvoorbeeld, voor een eenvoudige laag VM, het maximum aantal ten zeerste gebruikte schijven is over 66 (20.000/300 IO's / s per schijf) en voor een standaard laag VM, is bijna 40 (20.000/500 IO's / s per schijf), zoals wordt weergegeven in de onderstaande tabel. 
+ 
+- **Voor premium opslag-accounts:** Een premium-opslag-account heeft een totale maximumdoorvoer tarief van 50 GB/s. De totale doorvoer over alle VM schijven mag niet meer dan deze limiet.
