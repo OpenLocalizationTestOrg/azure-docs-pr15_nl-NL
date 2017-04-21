@@ -1,0 +1,3 @@
+### <a name="azure-resource-manager-and-azure-service-management"></a>Azure resourcemanager en Azure servicebeheer
+ 
+In dit artikel is bedoeld voor een Azure resource die is gemaakt in resourcemanager, waarin u wordt aangeraden over een resource die is gemaakt in servicebeheer. Zie voor meer informatie over de voordelen van Resource Manager, [Azure berekenen, netwerk en opslag Providers onder Azure resourcemanager](../articles/virtual-machines/virtual-machines-windows-compare-deployment-models.md). Hiertoe dezelfde taak voor een resource die zijn gemaakt met het beheer van Azure-Service, raadpleegt u het volgende artikel:

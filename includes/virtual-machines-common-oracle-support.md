@@ -1,0 +1,1 @@
+> [AZURE.IMPORTANT]  Dit inhoudstype is afgeschaft en niet meer bijgehouden.  Zie voor een overzicht van ondersteuning voor Oracle op Azure [Dit ondersteuning instructie gepubliceerd.](http://www.oracle.com/technetwork/topics/cloud/faq-1963009.html#support)
